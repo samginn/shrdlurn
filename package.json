@@ -7,7 +7,7 @@
   },
   "author": "Sida Wang <sidaw@cs.stanford.edu>",
   "license": "MIT",
-  "homepage": "http://nlp.stanford.com/~samginn/shrdlurn",
+  "homepage": "http://nlp.stanford.com/~sidaw/shrdlurn2",
   "devDependencies": {
     "react-scripts": "0.6.1"
   },
@@ -31,7 +31,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && rsync -r build/ samginn@jamie.stanford.edu:~samginn/www/shrdlurn"
+    "deploy": "npm run build && rsync -r build/ sidaw@jamie.stanford.edu:~sidaw/public_html/shrdlurn2"
   },
   "eslintConfig": {
     "extends": "react-app"
